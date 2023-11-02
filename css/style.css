@@ -8,12 +8,17 @@
 
 /* Tipografía */
 @font-face {
-  font-family: "";
-  src: url("") format("woff2"), url("") format("woff");
+  font-family: "Plasma Drip";
+  src: url("/font/plasdrip-webfont.woff2") format("woff2"), url("/font/plasdrip-webfont.woff") format("woff");
 }
+
 
 /* ******************************** */
 
 /* Colores */
-
+:root {
+  --color-blanco: #ffffff;
+  --color-dorado: #fcf3ae;
+  --color-negro: #000000;
+}
 /* ******************************** */
